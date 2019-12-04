@@ -1,0 +1,20 @@
+{
+  "platform-version": "2.0",
+  "product": {
+    "freshservice": {
+      "location": {
+        "asset_top_navigation": {
+          "url": "template.html",
+          "icon": "icon.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://*.freshdesk.com",
+    "https://*.freshservice.com",
+    "https://*.freshbnbs.com",
+    "https://05caf2d3.ngrok.io",
+    "https://shared-x.freshbnbs.com"
+  ]
+}

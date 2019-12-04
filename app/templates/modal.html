@@ -1,0 +1,39 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="modal.css">
+
+<div class="wrapper">
+    <div class="clone-container" id="clone-container">
+        <div class="quantity-wrapper">
+            <div class="quantity-input">
+                <span>Quantity</span>
+                <input type="number" id="quantity" class="spinner" value="1"/>
+            </div>
+            <button id="startOver"><i class="fa fa-undo"></i>Start Over</button>
+        </div>
+        
+        <div class="unique-fields-wrapper">
+            <p class="unique-fields-title">Enter asset information for the fields shown below</p>
+            <div id="unique-fields-list">
+                <div class="loading-wrapper">
+                    <div class="loader"></div>
+                </div>
+            </div>
+            <div id="response-list"></div>
+        </div>
+        <div class="sticky-footer">
+            <div class="loading">
+                <div class="loader"></div>
+                <span class="clone-assets"></span>
+            </div>
+            <button class="btn btn-secondary cancel" id="cancel">Cancel</button>
+            <button class="btn btn-primary clone" id="clone">Clone</button>
+        </div>
+    </div>
+</div>
+<script src="utils.js"></script>
+<script src="constants.js"></script>
+<script src="modal.js"></script>
